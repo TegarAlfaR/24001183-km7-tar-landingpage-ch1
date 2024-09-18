@@ -1,0 +1,519 @@
+/* import the helvetica font  */
+@font-face {
+    font-family: 'Helvetica';
+    src: url(public/assets/font/helvetica/Helvetica.ttf)  format('truetype');
+}
+body {
+    font-family: 'Helvetica';
+}
+
+/* set background color in header section */
+.header{
+    background-color: #F1F3FF;
+}
+
+/* ====================================================== */
+/* navbar section */
+
+/* set the navbar padding */
+.navbar-mp{
+    padding: 0px;
+    padding-top: 24px;
+}
+/* delete padding in container-fluid */
+.navbar-mp .container-fluid{
+    padding: 0px;
+}
+
+/* set the logo size in navbar list */
+.navbar-logo{
+    width: 100px;
+    height: 34px;
+}
+
+/* set padding in navbar list */
+.nav-list{
+    margin-right: 32px;
+}
+
+/* set the font in navbar list */
+.nav-list-font{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* set the register button in navbar list */
+.nav-button-register{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 700;
+    width: 81px;
+    height: 36px;
+    color: white;
+    background-color: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    line-height: 20px;
+}
+/* set the hover in the register button */
+.nav-button-register:hover{
+    color: black;
+    background-color: #5CB85F;
+}
+
+/* delete styling button from bootstrap */
+.navbar-toggler{
+    border: none;
+    background: none;
+}
+/* delete the styling button from bootstrap when it get clicked */
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+/* offcanvas section */
+
+/* set the size of offcanvas */
+#offcanvasNavbar2{
+    width: 50%;
+}
+
+/* set font in offcanvas header */
+.offcanvas-head-text{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* delete the styling bootstrap on button close */
+.nav-close-button{
+    background: none;
+    padding: 0px;
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+
+/* ====================================================== */
+/* main section */
+
+/* for text heading in main section */
+.main-h-font{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    line-height: 54px;
+}
+
+/* for text p in main section */
+.main-p-font{
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    line-height: 20px;
+}
+
+/* set the button in main section */
+.main-button{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 700;
+    width: 140px;
+    height: 36px;
+    color: white;
+    background-color: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    line-height: 20px;
+}
+/* set the hover in main button */
+.main-button:hover{
+    color: black;
+    background-color: #5CB85F;
+}
+
+
+/* ====================================================== */
+/* our service section */
+
+/* set font in head our service section */
+.our-service-h-font{
+    font-size: 24px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    line-height: 36px;
+    color: black;
+    margin-bottom: 24px;
+}
+
+/* set font in p our service section */
+.our-service-p-font{
+    font-size: 14px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    line-height: 20px;
+    color: black;
+}
+
+/* set font in list our service section */
+.our-service-ul-font{
+    font-size: 14px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    line-height: 20px;
+    color: black;
+}
+
+/* custom list in our service section*/
+/* set margin and padding in ul */
+.our-service-ul{
+    margin-bottom: 16px;
+    list-style: none;
+    padding-left: 0px;
+}
+/* set padding and margin in li */
+.our-service-li{
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 16px;
+}
+/* change the styling list with icon */
+.our-service-li::before{
+    content: url(public/assets/images/icon_list.svg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px; 
+    height: 24px;
+}
+
+
+/* ====================================================== */
+/* why us section */
+
+/* set font in h */
+.why-us-h{
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+/* set font for p */
+.why-us-p{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0px;
+}
+
+/* set padding for card */
+.why-us-card-body{
+padding: 24px;
+}
+
+/* set margin for icon in card */
+.why-us-card-icon{
+    margin-bottom: 16px;
+}
+/* set margin for h in card */
+.why-us-card-h{
+    margin-bottom: 16px;
+}
+
+
+/* ====================================================== */
+/* testimonial section */
+
+/* styling h in testimoni */
+.testimonial-h{
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+/* styling p in testimoni */
+.testimonial-p{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: black;
+}
+
+/* set background and border on card */
+.testimonial-card{
+    background-color: #F1F3FF;
+    border-radius: 8px;
+}
+
+/* styling tag p in card */
+.testimonial-card-p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: black;
+}
+
+/* styling name on card */
+.testimonial-card-name{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+}
+
+
+
+/* ====================================================== */
+/* sewa mobil section */
+
+.sewa-mobil{
+    background-color: #0D28A6;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-radius: 13px;
+}
+
+/* styling h in sewa mobil */
+.sewa-mobil-h{
+    font-family: 'Helvetica';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+/* styling p in sewa mobil */
+.sewa-mobil-p{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: white;
+}
+
+/* button for sewa mobil */
+.sewa-mobil-button{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 700;
+    width: 140px;
+    height: 36px;
+    color: white;
+    background-color: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    line-height: 20px;
+    align-self: center;
+}
+/* button hover */
+.sewa-mobil-button:hover{
+    color: black;
+    background-color: #5CB85F;
+}
+
+
+/* ====================================================== */
+/* faq section */
+/* set border accordion in faq */
+.faq-accordion-header{
+    border-bottom: 0px;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+}
+
+/* set border in body accordion */
+.faq-accordion-body{
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    border-top: none;
+}
+
+/* hide accordion button from bootstrap*/
+.accordion-button::after {
+    display: none;
+}
+/* set margin auto for icon in according */
+.faq-accordion-icon{
+    margin-left: auto;
+}
+/* rotate animation if icon button get clicked */
+.accordion-button:not(.collapsed) .faq-accordion-icon {
+    transform: rotate(180deg);
+}
+
+
+/* ====================================================== */
+/* footer section */
+
+
+/* set footer 1 */
+.footer-1{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* set footer 2 */
+.footer-2{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* set a in footer 2 */
+.footer-2 a{
+    text-decoration: none; 
+    color: black !important;
+}
+
+/* footer 3 */
+.footer-3{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* set footer 4 */
+.footer-4{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* set logo in footer */
+.footer-logo{
+    width: 100px;
+    height: 34px;
+}
+
+
+
+/* for mobile view */
+@media(max-width: 425px){
+
+}
+
+
+/* for tablet view */
+@media(max-width: 768px){
+
+
+}
+
+/* for dekstop view */
+@media(min-width: 769px){
+
+    /* head section */
+    /* set margin in navbar */
+    .navbar-mp{
+        margin-left: 136px;
+        margin-right: 136px;
+        margin-bottom: 37px;
+    }
+    /* set margin for main section */
+    .main{
+        margin-left: 136px;
+    }
+
+
+    /* our service section */
+    /* set margin for our service section */
+    .our-service{
+        margin-top: 100px;
+        margin-left: 206px;
+        margin-right: 207px;
+        margin-bottom: 100px;
+    }
+
+
+    /* why-us section */
+    /* set margin why use section */
+    .why-us{
+        margin-left: 136px;
+        margin-right: 136px;
+        margin-bottom: 100px;
+    }
+    /* set margin for card */
+    .why-us-div-card{
+        margin-top: 40px;
+    }
+    /* set size card */
+    .why-us .card{
+        max-width:280px;
+        width: auto;
+        height: 196px;
+    }
+
+
+    /* testimonial section */
+    /* set margin */
+    .testimonial{
+        margin-left: 304px;
+        margin-right: 304px;
+    }
+    /* set margin for p */
+    .testimonial-p{
+        margin-bottom: 40px;
+    }
+
+    /* set carousel padding */
+    .carousel-padding{
+        padding-top: 69px;
+        padding-bottom: 69px;
+        padding-left: 156px;
+        padding-right: 150.41px;
+    }
+    /* set image size */
+    .testimonial-img{
+        width: 70.22px;
+        height: 80px;
+        margin-right: 40.38px;
+    }
+
+
+    /* sewa mobil section */
+    /* set margin */
+    .sewa-mobil{
+        margin-top: 156px;
+        margin-left: 136px;
+        margin-right: 136px;
+        margin-bottom: 100px;
+    }
+
+
+    /* faq section */
+    /* set margin */
+    .faq{
+        margin-left: 136px;
+        margin-right: 136px;
+        margin-bottom: 150px;
+    }
+    /* set the size accordion */
+    .accordion-collapse{
+        max-width: 100%;
+    }
+
+    /* footer section */
+    /* footer margin */
+    footer{
+        margin-left: 136px;
+        margin-right: 136px;
+        margin-bottom: 100px;
+    }
+}
