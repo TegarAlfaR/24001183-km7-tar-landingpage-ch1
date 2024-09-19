@@ -83,12 +83,12 @@
         <!-- for main section -->
         <div class="row flex-lg-row-reverse align-items-center g-5 me-0 main">
 
-            <div class="col-10 col-sm-8 col-lg-6  order-last order-lg-first ms-auto px-0">
+            <div class="col-10 col-sm-8 col-lg-6  order-last order-lg-first px-0 main-image">
                 <img src="public/assets/images/img_car.png" class="d-block mx-lg-auto img-fluid" alt="Car Image"
                     loading="lazy">
             </div>
 
-            <div class="col-lg-6 p-0">
+            <div class="col p-0 main-text">
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 main-h-font">
                     Sewa & Rental Mobil Terbaik di kawasan Bogor
                 </h1>
@@ -110,15 +110,15 @@
     <div class="our-service">
 
 
-        <div class="row gy-4 align-items-center justify-content-center features-item m-0">
+        <div class="d-flex flex-column flex-sm-row features-item m-0 ">
 
             <!-- image for our service section -->
-            <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-                <img src="public/assets/images/img_our_service.png" class="img-fluid" alt="">
+            <div class=" mx-auto px-0" data-aos="zoom-out" data-aos-delay="100">
+                <img src="public/assets/images/img_our_service.png" class="our-service-image" alt="">
             </div>
 
             <!-- text in our service section -->
-            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <div class="px-0 align-self-center our-service-text" data-aos="fade-up" data-aos-delay="100">
                 <!-- header -->
                 <h3 class="our-service-h-font">
                     Best Car Rental for any kind of trip in Bogor!
@@ -172,7 +172,7 @@
         <!-- div for card -->
         <div class="d-flex flex-wrap flex-column flex-md-row why-us-div-card">
 
-            <div class="me-auto">
+            <div class="card-1 me-auto">
                 <div class="card">
                     <div class="card-body why-us-card-body">
                         <img src="public/assets/images/whyus-icon1.svg" alt="" class="why-us-card-icon">
@@ -183,7 +183,7 @@
                 </div>
             </div>
 
-            <div class="m-auto">
+            <div class="card-2 m-auto">
                 <div class="card">
                     <div class="card-body why-us-card-body">
                         <img src="public/assets/images/whyus-icon2.svg" alt="" class="why-us-card-icon">
@@ -195,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="m-auto">
+            <div class="card-3 m-auto">
                 <div class="card">
                     <div class="card-body why-us-card-body">
                         <img src="public/assets/images/whyus-icon3.svg" alt="" class="why-us-card-icon">
@@ -207,7 +207,7 @@
                 </div>
             </div>
 
-            <div class="ms-auto">
+            <div class="card-4 ms-auto">
                 <div class="card">
                     <div class="card-body why-us-card-body">
                         <img src="public/assets/images/whyus-icon4.svg" alt="" class="why-us-card-icon">
@@ -244,11 +244,11 @@
                     <div class="card d-flex flex-wrap testimonial-card">
 
                         <div class="card-body d-flex flex-column flex-md-row carousel-padding">
-                            <div class="card-title d-flex align-items-center">
+                            <div class="card-title d-flex align-items-center justify-content-center">
                                 <img src="public/assets/images/photo-testimonial.png" alt="" class="testimonial-img">
                             </div>
                             <div class="card-text flex-grow-1">
-                                <img src="public/assets/images/rate-testimonial.svg" alt="" class="img-fluid">
+                                <img src="public/assets/images/rate-testimonial.svg" alt="" class="testimonial-card-rate">
                                 <p class="testimonial-card-p">
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
                                     dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit
@@ -270,11 +270,11 @@
                     <div class="card d-flex flex-wrap testimonial-card ">
 
                         <div class="card-body d-flex flex-column flex-md-row carousel-padding">
-                            <div class="card-title d-flex align-items-center">
+                            <div class="card-title d-flex align-items-center justify-content-center">
                                 <img src="public/assets/images/photo-testimonial.png" alt="" class="testimonial-img">
                             </div>
                             <div class="card-text flex-grow-1">
-                                <img src="public/assets/images/rate-testimonial.svg" alt="" class="img-fluid">
+                                <img src="public/assets/images/rate-testimonial.svg" alt="" class="testimonial-card-rate">
                                 <p class="testimonial-card-p">
                                     "consectetur adipisicing elit. Quam atque magnam est sunt voluptates molestiae
                                     labore? Pariatur velit repellendus inventore. Ad enim repellat eum eligendi id
@@ -296,11 +296,11 @@
                     <div class="card d-flex flex-wrap testimonial-card">
 
                         <div class="card-body d-flex flex-column flex-md-row carousel-padding">
-                            <div class="card-title d-flex align-items-center">
+                            <div class="card-title d-flex align-items-center justify-content-center">
                                 <img src="public/assets/images/photo-testimonial.png" alt="" class="testimonial-img">
                             </div>
                             <div class="card-text flex-grow-1">
-                                <img src="public/assets/images/rate-testimonial.svg" alt="" class="img-fluid">
+                                <img src="public/assets/images/rate-testimonial.svg" alt="" class="testimonial-card-rate">
                                 <p class="testimonial-card-p">
                                     "Modi iste, nobis aspernatur odit quibusdam sit voluptates accusamus saepe veniam ad
                                     rerum id optio et corporis tempore voluptatem voluptate. Natus, vitae! Consequatur
@@ -341,29 +341,31 @@
     </div>
 
 
+
+
     <!-- faq section -->
-    <div class="faq d-flex flex-column flex-md-row align-items-stretch">
+    <div class="faq d-flex flex-row">
 
         <!-- for text -->
-        <div class="faq-text flex-fill">
+        <div class="faq-text me-auto">
             <h2>Frequently Asked Question</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
 
 
         <!-- this is accordion -->
-        <div class="accordion accordion-flush flex-fill" id="accordionFlushExample">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
             <!-- item 1 -->
             <div class="accordion-item">
-                <h2 class="accordion-header faq-accordion-header">
+                <h2 class="accordion-header faq-accordion-header " >
                     <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                         Apa saja syarat yang dibutuhkan?
                         <img src="public/assets/images/accordion-button.svg" alt="" class="faq-accordion-icon">
                     </button>
                 </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body faq-accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi mollitia porro ut. Architecto, tenetur, praesentium cum aperiam dolor sequi sed qui possimus voluptate autem quo, fugiat suscipit et consequuntur.
+                <div id="flush-collapseOne" class="accordion-collapse collapse "  data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body faq-accordion-body" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi mollitia porro ut. Architecto, tenetur, praesentium cum aperiam dolor sequi sed qui possimus voluptate autem quo, fugiat suscipit et consequuntur.
                     Repellendus, assumenda. Aut fuga debitis earum minus, impedit rem officia facere, quis ut odit consectetur. Molestias, odio sapiente. Incidunt esse officia sit excepturi ut recusandae nulla. Incidunt itaque provident sed.
                     </div>
                 </div>
@@ -395,7 +397,7 @@
                     </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample">
+                    data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body faq-accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque enim molestias eligendi voluptatem commodi quidem, iure distinctio impedit provident, ipsum adipisci ex exercitationem architecto, quam quas libero? Incidunt, eius. Incidunt nam eveniet ipsum beatae est atque. Esse libero itaque ab voluptas officiis voluptatibus vero omnis laborum repudiandae perferendis facilis dolore illum eos, doloremque enim accusantium temporibus odit dolorem quaerat?
                     </div>
                 </div>
@@ -411,7 +413,7 @@
                     </button>
                 </h2>
                 <div id="flush-collapseFour" class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample">
+                    data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body faq-accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum assumenda cumque, nostrum ipsum earum corrupti possimus quia consectetur dolores quos dolor sequi nisi vero corporis dolore, magni doloribus. Quidem!
                     Praesentium dolore earum maiores doloremque ullam sapiente id, aliquid quidem iusto repellat minima, expedita, sequi pariatur aspernatur. At vitae magnam est praesentium ipsa rem enim animi, in quidem, dolore pariatur.
                     </div>
@@ -428,7 +430,7 @@
                     </button>
                 </h2>
                 <div id="flush-collapseFive" class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample">
+                    data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body faq-accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium explicabo voluptate culpa iste, nobis molestias est? Ipsa autem quo fugiat cumque eius sunt, quod architecto quae ducimus? Nulla, voluptates iste!
                     Veritatis recusandae nesciunt harum quia dolorem perspiciatis maiores accusantium tempore molestiae consequatur, molestias deleniti, reprehenderit alias dignissimos earum eius quam commodi voluptatum! Suscipit, odit provident quis ex inventore nemo asperiores.
                     </div>
@@ -445,29 +447,29 @@
     <!-- footer section -->
     <footer class="d-flex flex-column flex-md-row">
         <div class="footer-1 me-auto">
-            <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
-            <p>binarcarrental@gmail.com</p>
+            <p class="footer-1-1">Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+            <p class="footer-1-2">binarcarrental@gmail.com</p>
             <p>081-233-334-808</p>
         </div>
         <div class="footer-2  m-auto d-flex flex-column mt-0">
-            <a href="">Our services</a>
-            <a href="">Why Us</a>
-            <a href="">Testimonial</a>
-            <a href="">FAQ</a>
+            <a href="" class="footer-2-our">Our services</a>
+            <a href="" class="footer-2-why">Why Us</a>
+            <a href="" class="footer-2-testimonial">Testimonial</a>
+            <a href="" class="footer-2-faq">FAQ</a>
         </div>
         <div class="footer-3 m-auto mt-0">
             <p>Connect with us</p>
             <div>
-                <img src="public/assets/images/icon_facebook.svg" alt="fb">
-                <img src="public/assets/images/icon_instagram.svg" alt="ig">
-                <img src="public/assets/images/icon_twitter.svg" alt="x">
-                <img src="public/assets/images/icon_mail.svg" alt="mail">
-                <img src="public/assets/images/icon_twitch.svg" alt="twitch">
+                <img src="public/assets/images/icon_facebook.svg" alt="fb" class="fb">
+                <img src="public/assets/images/icon_instagram.svg" alt="ig" class="ig">
+                <img src="public/assets/images/icon_twitter.svg" alt="x" class="x">
+                <img src="public/assets/images/icon_mail.svg" alt="mail" class="mail">
+                <img src="public/assets/images/icon_twitch.svg" alt="twitch" class="twich">
             </div>
 
         </div>
         <div class="footer-4 ms-auto mt-0">
-            <p>Copyright Binar 2022</p>
+            <p class="footer-4-p">Copyright Binar 2022</p>
             <img class="footer-logo" src="public/assets/images/logo-navbar.png" alt="">
         </div>
     </footer>
