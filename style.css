@@ -457,6 +457,10 @@ padding: 24px;
         margin-right: 16px;
         margin-bottom: 32px;
     }
+    /* set margin for list in offcanvas */
+    .nav-link{
+        margin-bottom: 16px;
+    }
     /* set margin for main section */
     .main{
         margin-left: 16px;
@@ -536,10 +540,19 @@ padding: 24px;
         padding-left: 32px;
         padding-right: 32px;
     }
+    /* set margin */
+    .card-title{
+        margin-bottom: 24px;
+    }
     /* set image size */
     .testimonial-img{
         width: 80px;
         height: 80px;
+    }
+    .card-text img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 24px;
     }
     /* set position button */
     .carousel-control-prev,
@@ -605,7 +618,169 @@ padding: 24px;
 
 
 /* for tablet view */
-@media(max-width: 768px){
+@media(min-width: 500px) and (max-width: 769px) {
+    /* head section */
+    /* set margin in navbar */
+    .navbar-mp{
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 37px;
+    }
+    /* set margin for main section */
+    .main{
+        margin-left: 90px;
+    }
+    .main-text{
+        margin-right: 90px !important;
+    }
+    /* set size main image */
+    .main-image{
+        width: 600px;
+    }
+
+
+    /* our service section */
+    /* set margin for our service section */
+    .our-service{
+        margin-top: 130px;
+        margin-left: 130px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+    }
+    .features-item{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    /* set size image */
+    .our-service-image{
+        width: 350px;
+    }
+    /* set margin for text */
+    .our-service-text{
+        margin-top: 60px;
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+
+
+    /* why-us section */
+    /* set margin why use section */
+    .why-us{
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 60px;
+    }
+    /* set margin for card */
+    .why-us-div-card{
+        margin-top: 24px;
+    }
+    /* set size card */
+    .why-us .card{
+        width: 100%;
+        height: auto;
+    }
+    /* set margin and size for card */
+    .card-1{
+        width: 100%;
+        margin-bottom: 16px !important;
+    }
+    .card-2{
+        width: 100%;
+        margin-bottom: 16px !important;
+    }
+    .card-3{
+        width: 100%;
+        margin-bottom: 16px !important;
+    }
+    .card-4{
+        width: 100%;
+    }
+
+
+    /* testimonial section */
+    /* set margin */
+    .testimonial{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    /* set margin for p */
+    .testimonial-p{
+        margin-bottom: 40px;
+    }
+
+    /* set carousel padding */
+    .carousel-padding{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    /* set image size */
+    .testimonial-img{
+        width: 70.22px;
+        height: 80px;
+        margin-right: 40.38px;
+    }
+
+
+
+    /* sewa mobil section */
+    /* set margin */
+    .sewa-mobil{
+        margin-top: 100px;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 100px;
+        padding: 20px;
+    }
+
+
+    /* faq section */
+    /* set margin */
+    .faq{
+        flex-direction: column !important;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 60px;
+    }
+    /* set size accordion */
+    .faq .accordion-item{
+        width: auto !important;
+        margin-bottom: 16px;
+    }
+    /* set text to center */
+    .faq-text{
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-items: center !important;
+    }
+    /* set margin text */
+    .faq-text h{
+        margin-bottom: 16px;
+    }
+    .faq-text p{
+        margin-bottom: 24px;
+    }
+
+
+
+    /* footer section */
+    /* footer margin */
+    footer{
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-3{
+        margin-top: 50px !important;
+        margin-right: auto;
+    }
+    .footer-4{
+        margin-top: 50px !important;
+    }
 
 
 }
@@ -641,7 +816,10 @@ padding: 24px;
     /* set size image */
     .our-service-image{
         width: 459px;
-        margin-right: 100px;
+    }
+    /* set margin */
+    .our-service-text{
+        margin-left: 100px;
     }
 
 
