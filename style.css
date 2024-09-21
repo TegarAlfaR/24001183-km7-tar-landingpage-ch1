@@ -644,8 +644,8 @@ padding: 24px;
     /* set margin for our service section */
     .our-service{
         margin-top: 130px;
-        margin-left: 130px;
-        margin-right: 100px;
+        margin-left: 100px !important;
+        margin-right: 100px !important;
         margin-bottom: 100px;
     }
     .features-item{
